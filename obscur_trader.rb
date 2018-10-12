@@ -16,7 +16,7 @@ def store_currencies_and_values(url)
 	all_currencies.push({"currency" => doc.xpath("/html/body/div[2]/div/div[1]/div[2]/div[3]/div[2]/table/tbody/tr[#{i}]/td[2]/a").text , "value" => doc.xpath("/html/body/div[2]/div/div[1]/div[2]/div[3]/div[2]/table/tbody/tr[#{i}]/td[5]/a").text})
 	
 	i += 1
-	sleep(3600)
+	sleep(3600) #timer pour relancer la méthode toutes les heures 
 	end
 	puts all_currencies
 end
