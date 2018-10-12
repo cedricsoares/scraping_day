@@ -47,6 +47,3 @@ get_deputy_contacts("http://www2.assemblee-nationale.fr/deputes/liste/tableau")
 
 
 
-
-#/html/body/div[3]/div/div/div/section[2]/div/div/div/article/div[3]/section/dl/dd[1]/a
-#/html/body/div[3]/div/div/div/section[2]/div/div/div/article/div[3]/section/dl/dd[1]/a
